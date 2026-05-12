@@ -23,7 +23,7 @@ namespace ConsoleApp1
             comment.Comment = "Wow";
 
             Notify notify = new Notify();
-            notify.HandelEmail(youtubeChannel);
+            notify.HandleEmail(youtubeChannel);
 
             youtubeChannel.UploadVideo("New Challenge", "Moaaz Abdullah");
 
