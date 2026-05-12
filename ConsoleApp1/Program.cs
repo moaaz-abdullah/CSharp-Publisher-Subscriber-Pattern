@@ -31,8 +31,6 @@ namespace ConsoleApp1
         }
     }
 
-    //public delegate void UploadVideoUploaded(string title);
-
     public class VideoInfoEventArgs : EventArgs
     {
         public string Title { get; set; }
